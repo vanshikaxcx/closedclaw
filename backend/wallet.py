@@ -1,7 +1,7 @@
 from datetime import UTC, datetime
 from uuid import uuid4
 
-from backend.db import get_db
+from db import get_db
 
 
 def ensure_wallet(entity_id: str, connection=None) -> None:

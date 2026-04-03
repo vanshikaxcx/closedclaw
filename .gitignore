@@ -7,9 +7,28 @@ __pycache__
 .DS_Store
 dist
 build
+*.db
 .next
 .vercel
 *.log
+
+# IDE / local tooling
+.idea/
+.vscode/
+
+# Python caches
+.pytest_cache/
+
+# Android/Expo generated artifacts
+.gradle/
+.kotlin/
+.expo/
+.cxx/
+android/.gradle/
+android/.kotlin/
+android/app/.cxx/
+Agentic Commerce app/**/*.db
+
 ArthSetu_Technical_Implementation_Plan.docx
 ArthSetu_Technical_Implementation_Plan.pdf
 ArthSetu_Technical_Implementation_Plan.txt

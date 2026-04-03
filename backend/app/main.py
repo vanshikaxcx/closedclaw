@@ -52,30 +52,40 @@ async def global_exception_handler(request: Request, exc: Exception):
 
 @app.on_event("startup")
 def on_startup() -> None:
-    init_firestore()
-    db = get_db()
     startup_mode = "normal"
     demo_mode = demo_mode_enabled()
     demo_seed_on_startup = demo_seed_on_startup_enabled()
+    db = None
 
     try:
-        if demo_seed_on_startup:
-            merchant_count = ensure_seed_data(db, force=False)
-        else:
-            merchant_count = count_collection(db, "merchants")
+        init_firestore()
+        db = get_db()
     except Exception as exc:
         startup_mode = "degraded"
-        print(f"Startup data check skipped due to database issue: {exc}")
+        print(f"Database initialization skipped due to configuration/runtime issue: {exc}")
+
+    if db is not None:
         try:
-            merchant_count = count_collection(db, "merchants")
-        except Exception:
-            merchant_count = 0
+            if demo_seed_on_startup:
+                merchant_count = ensure_seed_data(db, force=False)
+            else:
+                merchant_count = count_collection(db, "merchants")
+        except Exception as exc:
+            startup_mode = "degraded"
+            print(f"Startup data check skipped due to database issue: {exc}")
+            try:
+                merchant_count = count_collection(db, "merchants")
+            except Exception:
+                merchant_count = 0
+    else:
+        merchant_count = 0
 
-    try:
-        initialize_wallet_store(db)
-    except Exception as exc:
-        startup_mode = "degraded"
-        print(f"Wallet store initialization skipped due to database issue: {exc}")
+    if db is not None:
+        try:
+            initialize_wallet_store(db)
+        except Exception as exc:
+            startup_mode = "degraded"
+            print(f"Wallet store initialization skipped due to database issue: {exc}")
 
     print(
         "ArthSetu backend ready. "

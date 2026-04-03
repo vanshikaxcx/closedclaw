@@ -1,9 +1,10 @@
+import os
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 
-from backend.audit import append_audit
-from backend.db import (
+from audit import append_audit
+from db import (
     configure_database,
     connect_db,
     get_db,
@@ -11,16 +12,19 @@ from backend.db import (
     reset_request_db,
     set_request_db,
 )
-from backend.modules.cashflow import cashflow_router
-from backend.modules.invoice import invoice_router, process_repayment
-from backend.modules.trustscore import trustscore_router
-from backend.wallet import get_balance, transfer_funds
-from backend.whatsapp import send_whatsapp
+from modules.cashflow import cashflow_router
+from modules.invoice import invoice_router, process_repayment
+from modules.trustscore import trustscore_router
+from wallet import get_balance, transfer_funds
+from whatsapp import send_whatsapp
 
 
 def create_app(test_config: dict | None = None) -> FastAPI:
     app = FastAPI(title="ArthSetu Backend")
-    default_db = Path(__file__).resolve().parent / "arthsetu.db"
+    if os.getenv("VERCEL") == "1":
+        default_db = Path("/tmp") / "arthsetu.db"
+    else:
+        default_db = Path(__file__).resolve().parent / "arthsetu.db"
 
     config = {
         "DATABASE_PATH": str(default_db),

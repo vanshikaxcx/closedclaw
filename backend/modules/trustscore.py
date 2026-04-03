@@ -1,8 +1,8 @@
 import json
 from datetime import UTC, datetime
 from fastapi import APIRouter, HTTPException
-from backend.audit import append_audit
-from backend.db import get_db
+from audit import append_audit
+from db import get_db
 
 trustscore_router = APIRouter()
 

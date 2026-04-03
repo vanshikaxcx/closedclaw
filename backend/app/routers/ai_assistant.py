@@ -7,13 +7,25 @@ import re
 from pathlib import Path
 from typing import Any
 
-import google.generativeai as genai
 from dotenv import load_dotenv
 from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
-from groq import Groq
-from mistralai.client import Mistral
 from pydantic import BaseModel
+try:
+    import google.generativeai as genai  # type: ignore
+except Exception:
+    genai = None
+
+try:
+    from groq import Groq  # type: ignore
+except Exception:
+    Groq = None
+
+try:
+    from mistralai.client import Mistral  # type: ignore
+except Exception:
+    Mistral = None
+
 
 from app.audit import write_entry
 from app.database import DatabaseClient, utc_now_iso
@@ -56,6 +68,8 @@ def _require_env(name: str) -> str:
 
 def _get_mistral_client() -> Mistral:
     global _mistral_client
+    if Mistral is None:
+        raise ValueError("mistralai SDK is not installed")
     if _mistral_client is None:
         _mistral_client = Mistral(api_key=_require_env("MISTRAL_API_KEY"))
     return _mistral_client
@@ -63,6 +77,8 @@ def _get_mistral_client() -> Mistral:
 
 def _get_groq_client() -> Groq:
     global _groq_client
+    if Groq is None:
+        raise ValueError("groq SDK is not installed")
     if _groq_client is None:
         _groq_client = Groq(api_key=_require_env("GROQ_API_KEY"))
     return _groq_client
@@ -72,6 +88,9 @@ def _get_gemini_models() -> tuple[Any, Any]:
     global _gemini_configured
     global _gemini_ocr_model
     global _gemini_voice_model
+
+    if genai is None:
+        raise ValueError("google-generativeai SDK is not installed")
 
     api_key = _require_env("GEMINI_API_KEY")
     if not _gemini_configured:

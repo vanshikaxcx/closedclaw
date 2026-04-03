@@ -2,7 +2,7 @@ import json
 from datetime import UTC, datetime
 from uuid import uuid4
 
-from backend.db import get_db
+from db import get_db
 
 
 def append_audit(

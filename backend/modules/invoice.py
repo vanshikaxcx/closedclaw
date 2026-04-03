@@ -4,10 +4,10 @@ from uuid import uuid4
 
 from fastapi import APIRouter, HTTPException
 
-from backend.audit import append_audit
-from backend.db import get_db
-from backend.wallet import transfer_funds
-from backend.whatsapp import send_whatsapp
+from audit import append_audit
+from db import get_db
+from wallet import transfer_funds
+from whatsapp import send_whatsapp
 
 
 invoice_router = APIRouter()

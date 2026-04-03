@@ -1,8 +1,8 @@
 from datetime import UTC, datetime
 from uuid import uuid4
 
-from backend.audit import append_audit
-from backend.db import get_db
+from audit import append_audit
+from db import get_db
 
 
 def send_whatsapp(phone: str, message: str, connection=None) -> dict:

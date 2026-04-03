@@ -12,9 +12,9 @@
 
 ---
 
-**Live Demo Link: https://closedclaw-frontend.vercel.app/**
-**Agentic Commerce App Demo Video: https://drive.google.com/file/d/1MrrSRF7diwEN6k1V0bBlSiQELsVBFA0W/view?usp=sharing**
-**Merchant Side Website Demo Video: https://drive.google.com/file/d/16cBT1iOsSR8YZ87WCIt5gkAehxQjE0Ce/view?usp=sharing**
+**Live Demo Link: https://closedclaw-frontend.vercel.app/**<br>
+**Agentic Commerce App Demo Video: https://drive.google.com/file/d/1MrrSRF7diwEN6k1V0bBlSiQELsVBFA0W/view?usp=sharing**<br>
+**Merchant Side Website Demo Video: https://drive.google.com/file/d/16cBT1iOsSR8YZ87WCIt5gkAehxQjE0Ce/view?usp=sharing**<br>
 </div>
 
 ---

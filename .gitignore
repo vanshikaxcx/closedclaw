@@ -37,3 +37,4 @@ cashflow_projection_30_60_90.csv
 cashflow_projection_30_60_90.json
 generate_cashflow_projection.py
 arthsetu_all_merchants.json
+.env*.local

@@ -1,0 +1,100 @@
+[
+  {
+    "merchant_id": "ramesh_gurgaon_001",
+    "name": "Ramesh General Store",
+    "category": "grocery",
+    "location": "Sector 14, Gurgaon",
+    "is_agent_addressable": true,
+    "paytm_pos_id": "POS_RGS_001",
+    "products": [
+      {"product_id": "rgs_001", "name": "Atta (Wheat Flour)", "price": 145, "unit": "2kg", "hsn_code": "1001", "gst_rate": 0.05, "stock_qty": 200},
+      {"product_id": "rgs_002", "name": "Milk (Full Cream)", "price": 68, "unit": "1L", "hsn_code": "0401", "gst_rate": 0.0, "stock_qty": 150},
+      {"product_id": "rgs_003", "name": "Rice (Basmati)", "price": 95, "unit": "1kg", "hsn_code": "1006", "gst_rate": 0.05, "stock_qty": 180},
+      {"product_id": "rgs_004", "name": "Sugar", "price": 45, "unit": "1kg", "hsn_code": "1701", "gst_rate": 0.05, "stock_qty": 250},
+      {"product_id": "rgs_005", "name": "Cooking Oil (Mustard)", "price": 180, "unit": "1L", "hsn_code": "1515", "gst_rate": 0.05, "stock_qty": 120},
+      {"product_id": "rgs_006", "name": "Soap (Dove)", "price": 55, "unit": "1pc", "hsn_code": "3401", "gst_rate": 0.18, "stock_qty": 300},
+      {"product_id": "rgs_007", "name": "Detergent (Surf Excel)", "price": 120, "unit": "1kg", "hsn_code": "3402", "gst_rate": 0.18, "stock_qty": 160},
+      {"product_id": "rgs_008", "name": "Shampoo (Head & Shoulders)", "price": 195, "unit": "180ml", "hsn_code": "3305", "gst_rate": 0.18, "stock_qty": 100},
+      {"product_id": "rgs_009", "name": "Tea (Tata Gold)", "price": 160, "unit": "250g", "hsn_code": "0902", "gst_rate": 0.05, "stock_qty": 200},
+      {"product_id": "rgs_010", "name": "Biscuits (Parle-G)", "price": 30, "unit": "1 pack", "hsn_code": "1905", "gst_rate": 0.18, "stock_qty": 500}
+    ]
+  },
+  {
+    "merchant_id": "sharma_electronics_002",
+    "name": "Sharma Electronics",
+    "category": "electronics",
+    "location": "MG Road, Gurgaon",
+    "is_agent_addressable": true,
+    "paytm_pos_id": "POS_SE_002",
+    "products": [
+      {"product_id": "se_001", "name": "USB Cable (Type-C)", "price": 299, "unit": "1pc", "hsn_code": "8544", "gst_rate": 0.18, "stock_qty": 100},
+      {"product_id": "se_002", "name": "Earphones (boAt Bassheads)", "price": 599, "unit": "1pc", "hsn_code": "8518", "gst_rate": 0.18, "stock_qty": 50},
+      {"product_id": "se_003", "name": "Phone Charger (20W)", "price": 449, "unit": "1pc", "hsn_code": "8504", "gst_rate": 0.18, "stock_qty": 80},
+      {"product_id": "se_004", "name": "Power Bank (10000mAh)", "price": 899, "unit": "1pc", "hsn_code": "8507", "gst_rate": 0.18, "stock_qty": 40},
+      {"product_id": "se_005", "name": "Screen Protector", "price": 199, "unit": "1pc", "hsn_code": "7007", "gst_rate": 0.18, "stock_qty": 200},
+      {"product_id": "se_006", "name": "Phone Case", "price": 349, "unit": "1pc", "hsn_code": "4202", "gst_rate": 0.18, "stock_qty": 150}
+    ]
+  },
+  {
+    "merchant_id": "singh_pharmacy_003",
+    "name": "Singh Pharmacy",
+    "category": "health",
+    "location": "Sector 21, Gurgaon",
+    "is_agent_addressable": true,
+    "paytm_pos_id": "POS_SP_003",
+    "products": [
+      {"product_id": "sp_001", "name": "Paracetamol (Crocin)", "price": 15, "unit": "10 tablets", "hsn_code": "3004", "gst_rate": 0.12, "stock_qty": 500},
+      {"product_id": "sp_002", "name": "Vitamin C (Limcee)", "price": 120, "unit": "15 tablets", "hsn_code": "3004", "gst_rate": 0.12, "stock_qty": 200},
+      {"product_id": "sp_003", "name": "Band-Aid (Pack)", "price": 45, "unit": "10pc", "hsn_code": "3006", "gst_rate": 0.12, "stock_qty": 300},
+      {"product_id": "sp_004", "name": "Dettol Antiseptic", "price": 85, "unit": "100ml", "hsn_code": "3808", "gst_rate": 0.18, "stock_qty": 150},
+      {"product_id": "sp_005", "name": "ORS Packets", "price": 25, "unit": "5 sachets", "hsn_code": "3004", "gst_rate": 0.12, "stock_qty": 400},
+      {"product_id": "sp_006", "name": "Vicks VapoRub", "price": 95, "unit": "25ml", "hsn_code": "3004", "gst_rate": 0.12, "stock_qty": 250}
+    ]
+  },
+  {
+    "merchant_id": "patel_mobile_004",
+    "name": "Patel Mobile Recharge",
+    "category": "telecom",
+    "location": "Sector 10, Gurgaon",
+    "is_agent_addressable": true,
+    "paytm_pos_id": "POS_PM_004",
+    "products": [
+      {"product_id": "pm_001", "name": "Jio Recharge", "price": 239, "unit": "28 days", "hsn_code": "9984", "gst_rate": 0.18, "stock_qty": 9999},
+      {"product_id": "pm_002", "name": "Airtel Recharge", "price": 299, "unit": "28 days", "hsn_code": "9984", "gst_rate": 0.18, "stock_qty": 9999},
+      {"product_id": "pm_003", "name": "Vi Recharge", "price": 179, "unit": "28 days", "hsn_code": "9984", "gst_rate": 0.18, "stock_qty": 9999},
+      {"product_id": "pm_004", "name": "BSNL Recharge", "price": 197, "unit": "30 days", "hsn_code": "9984", "gst_rate": 0.18, "stock_qty": 9999},
+      {"product_id": "pm_005", "name": "Jio Data Add-on", "price": 151, "unit": "30 days", "hsn_code": "9984", "gst_rate": 0.18, "stock_qty": 9999}
+    ]
+  },
+  {
+    "merchant_id": "gupta_clothing_005",
+    "name": "Gupta Clothing Store",
+    "category": "clothing",
+    "location": "Sadar Bazaar, Gurgaon",
+    "is_agent_addressable": true,
+    "paytm_pos_id": "POS_GC_005",
+    "products": [
+      {"product_id": "gc_001", "name": "T-Shirt (Cotton)", "price": 350, "unit": "1pc", "hsn_code": "6109", "gst_rate": 0.05, "stock_qty": 100},
+      {"product_id": "gc_002", "name": "Jeans (Denim)", "price": 899, "unit": "1pc", "hsn_code": "6204", "gst_rate": 0.12, "stock_qty": 60},
+      {"product_id": "gc_003", "name": "Kurta (Men)", "price": 450, "unit": "1pc", "hsn_code": "6211", "gst_rate": 0.05, "stock_qty": 80},
+      {"product_id": "gc_004", "name": "Dupatta", "price": 250, "unit": "1pc", "hsn_code": "6214", "gst_rate": 0.05, "stock_qty": 120},
+      {"product_id": "gc_005", "name": "Socks (3 pair)", "price": 150, "unit": "3 pairs", "hsn_code": "6115", "gst_rate": 0.05, "stock_qty": 200}
+    ]
+  },
+  {
+    "merchant_id": "kumar_sweets_006",
+    "name": "Kumar Sweet Shop",
+    "category": "food",
+    "location": "Old Market, Gurgaon",
+    "is_agent_addressable": true,
+    "paytm_pos_id": "POS_KS_006",
+    "products": [
+      {"product_id": "ks_001", "name": "Barfi (Kaju)", "price": 280, "unit": "500g", "hsn_code": "2106", "gst_rate": 0.12, "stock_qty": 50},
+      {"product_id": "ks_002", "name": "Ladoo (Besan)", "price": 320, "unit": "500g", "hsn_code": "2106", "gst_rate": 0.12, "stock_qty": 40},
+      {"product_id": "ks_003", "name": "Gulab Jamun", "price": 180, "unit": "500g", "hsn_code": "2106", "gst_rate": 0.12, "stock_qty": 60},
+      {"product_id": "ks_004", "name": "Samosa (4pc)", "price": 60, "unit": "4 pieces", "hsn_code": "2106", "gst_rate": 0.12, "stock_qty": 200},
+      {"product_id": "ks_005", "name": "Jalebi", "price": 200, "unit": "500g", "hsn_code": "2106", "gst_rate": 0.12, "stock_qty": 70},
+      {"product_id": "ks_006", "name": "Rasgulla (6pc)", "price": 150, "unit": "6 pieces", "hsn_code": "2106", "gst_rate": 0.12, "stock_qty": 80}
+    ]
+  }
+]

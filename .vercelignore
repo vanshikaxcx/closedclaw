@@ -1,0 +1,9 @@
+backend/tests
+backend/data
+backend/__pycache__
+*.db
+*.log
+.venv
+paytm ui
+**/node_modules
+**/.next

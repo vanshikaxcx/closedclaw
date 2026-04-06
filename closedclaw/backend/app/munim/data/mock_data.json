@@ -1,0 +1,706 @@
+{
+  "voice_commands": [],
+  "transactions": [
+    {
+      "id": "txn_0",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 1000,
+      "party_name": "Customer 0",
+      "payment_mode": "upi",
+      "description": "Transaction 0",
+      "created_at": "2026-03-07T00:01:49.688439"
+    },
+    {
+      "id": "txn_1",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 1100,
+      "party_name": "Customer 1",
+      "payment_mode": "cash",
+      "description": "Transaction 1",
+      "created_at": "2026-03-08T00:01:49.688439"
+    },
+    {
+      "id": "txn_2",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 1200,
+      "party_name": "Customer 2",
+      "payment_mode": "upi",
+      "description": "Transaction 2",
+      "created_at": "2026-03-09T00:01:49.688439"
+    },
+    {
+      "id": "txn_3",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 1300,
+      "party_name": "Customer 3",
+      "payment_mode": "cash",
+      "description": "Transaction 3",
+      "created_at": "2026-03-10T00:01:49.688439"
+    },
+    {
+      "id": "txn_4",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 1400,
+      "party_name": "Customer 4",
+      "payment_mode": "upi",
+      "description": "Transaction 4",
+      "created_at": "2026-03-11T00:01:49.688439"
+    },
+    {
+      "id": "txn_5",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 1500,
+      "party_name": "Customer 5",
+      "payment_mode": "cash",
+      "description": "Transaction 5",
+      "created_at": "2026-03-12T00:01:49.688439"
+    },
+    {
+      "id": "txn_6",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 1600,
+      "party_name": "Customer 6",
+      "payment_mode": "upi",
+      "description": "Transaction 6",
+      "created_at": "2026-03-13T00:01:49.688439"
+    },
+    {
+      "id": "txn_7",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 1700,
+      "party_name": "Customer 7",
+      "payment_mode": "cash",
+      "description": "Transaction 7",
+      "created_at": "2026-03-14T00:01:49.688439"
+    },
+    {
+      "id": "txn_8",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 1800,
+      "party_name": "Customer 8",
+      "payment_mode": "upi",
+      "description": "Transaction 8",
+      "created_at": "2026-03-15T00:01:49.688439"
+    },
+    {
+      "id": "txn_9",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 1900,
+      "party_name": "Customer 9",
+      "payment_mode": "cash",
+      "description": "Transaction 9",
+      "created_at": "2026-03-16T00:01:49.688439"
+    },
+    {
+      "id": "txn_10",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 2000,
+      "party_name": "Customer 0",
+      "payment_mode": "upi",
+      "description": "Transaction 10",
+      "created_at": "2026-03-17T00:01:49.688439"
+    },
+    {
+      "id": "txn_11",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 2100,
+      "party_name": "Customer 1",
+      "payment_mode": "cash",
+      "description": "Transaction 11",
+      "created_at": "2026-03-18T00:01:49.688439"
+    },
+    {
+      "id": "txn_12",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 2200,
+      "party_name": "Customer 2",
+      "payment_mode": "upi",
+      "description": "Transaction 12",
+      "created_at": "2026-03-19T00:01:49.688439"
+    },
+    {
+      "id": "txn_13",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 2300,
+      "party_name": "Customer 3",
+      "payment_mode": "cash",
+      "description": "Transaction 13",
+      "created_at": "2026-03-20T00:01:49.688439"
+    },
+    {
+      "id": "txn_14",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 2400,
+      "party_name": "Customer 4",
+      "payment_mode": "upi",
+      "description": "Transaction 14",
+      "created_at": "2026-03-21T00:01:49.688439"
+    },
+    {
+      "id": "txn_15",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 2500,
+      "party_name": "Customer 5",
+      "payment_mode": "cash",
+      "description": "Transaction 15",
+      "created_at": "2026-03-22T00:01:49.688439"
+    },
+    {
+      "id": "txn_16",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 2600,
+      "party_name": "Customer 6",
+      "payment_mode": "upi",
+      "description": "Transaction 16",
+      "created_at": "2026-03-23T00:01:49.688439"
+    },
+    {
+      "id": "txn_17",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 2700,
+      "party_name": "Customer 7",
+      "payment_mode": "cash",
+      "description": "Transaction 17",
+      "created_at": "2026-03-24T00:01:49.688439"
+    },
+    {
+      "id": "txn_18",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 2800,
+      "party_name": "Customer 8",
+      "payment_mode": "upi",
+      "description": "Transaction 18",
+      "created_at": "2026-03-25T00:01:49.688439"
+    },
+    {
+      "id": "txn_19",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 2900,
+      "party_name": "Customer 9",
+      "payment_mode": "cash",
+      "description": "Transaction 19",
+      "created_at": "2026-03-26T00:01:49.688439"
+    },
+    {
+      "id": "txn_20",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 3000,
+      "party_name": "Customer 0",
+      "payment_mode": "upi",
+      "description": "Transaction 20",
+      "created_at": "2026-03-27T00:01:49.688439"
+    },
+    {
+      "id": "txn_21",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 3100,
+      "party_name": "Customer 1",
+      "payment_mode": "cash",
+      "description": "Transaction 21",
+      "created_at": "2026-03-28T00:01:49.688439"
+    },
+    {
+      "id": "txn_22",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 3200,
+      "party_name": "Customer 2",
+      "payment_mode": "upi",
+      "description": "Transaction 22",
+      "created_at": "2026-03-29T00:01:49.688439"
+    },
+    {
+      "id": "txn_23",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 3300,
+      "party_name": "Customer 3",
+      "payment_mode": "cash",
+      "description": "Transaction 23",
+      "created_at": "2026-03-30T00:01:49.688439"
+    },
+    {
+      "id": "txn_24",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 3400,
+      "party_name": "Customer 4",
+      "payment_mode": "upi",
+      "description": "Transaction 24",
+      "created_at": "2026-03-31T00:01:49.688439"
+    },
+    {
+      "id": "txn_25",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 3500,
+      "party_name": "Customer 5",
+      "payment_mode": "cash",
+      "description": "Transaction 25",
+      "created_at": "2026-04-01T00:01:49.688439"
+    },
+    {
+      "id": "txn_26",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 3600,
+      "party_name": "Customer 6",
+      "payment_mode": "upi",
+      "description": "Transaction 26",
+      "created_at": "2026-04-02T00:01:49.688439"
+    },
+    {
+      "id": "txn_27",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 3700,
+      "party_name": "Customer 7",
+      "payment_mode": "cash",
+      "description": "Transaction 27",
+      "created_at": "2026-04-03T00:01:49.688439"
+    },
+    {
+      "id": "txn_28",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 3800,
+      "party_name": "Customer 8",
+      "payment_mode": "upi",
+      "description": "Transaction 28",
+      "created_at": "2026-04-04T00:01:49.688439"
+    },
+    {
+      "id": "txn_29",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 3900,
+      "party_name": "Customer 9",
+      "payment_mode": "cash",
+      "description": "Transaction 29",
+      "created_at": "2026-04-05T00:01:49.688439"
+    },
+    {
+      "id": "txn_30",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 4000,
+      "party_name": "Customer 0",
+      "payment_mode": "upi",
+      "description": "Transaction 30",
+      "created_at": "2026-03-07T00:01:49.688439"
+    },
+    {
+      "id": "txn_31",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 4100,
+      "party_name": "Customer 1",
+      "payment_mode": "cash",
+      "description": "Transaction 31",
+      "created_at": "2026-03-08T00:01:49.688439"
+    },
+    {
+      "id": "txn_32",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 4200,
+      "party_name": "Customer 2",
+      "payment_mode": "upi",
+      "description": "Transaction 32",
+      "created_at": "2026-03-09T00:01:49.688439"
+    },
+    {
+      "id": "txn_33",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 4300,
+      "party_name": "Customer 3",
+      "payment_mode": "cash",
+      "description": "Transaction 33",
+      "created_at": "2026-03-10T00:01:49.688439"
+    },
+    {
+      "id": "txn_34",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 4400,
+      "party_name": "Customer 4",
+      "payment_mode": "upi",
+      "description": "Transaction 34",
+      "created_at": "2026-03-11T00:01:49.688439"
+    },
+    {
+      "id": "txn_35",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 4500,
+      "party_name": "Customer 5",
+      "payment_mode": "cash",
+      "description": "Transaction 35",
+      "created_at": "2026-03-12T00:01:49.688439"
+    },
+    {
+      "id": "txn_36",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 4600,
+      "party_name": "Customer 6",
+      "payment_mode": "upi",
+      "description": "Transaction 36",
+      "created_at": "2026-03-13T00:01:49.688439"
+    },
+    {
+      "id": "txn_37",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 4700,
+      "party_name": "Customer 7",
+      "payment_mode": "cash",
+      "description": "Transaction 37",
+      "created_at": "2026-03-14T00:01:49.688439"
+    },
+    {
+      "id": "txn_38",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 4800,
+      "party_name": "Customer 8",
+      "payment_mode": "upi",
+      "description": "Transaction 38",
+      "created_at": "2026-03-15T00:01:49.688439"
+    },
+    {
+      "id": "txn_39",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 4900,
+      "party_name": "Customer 9",
+      "payment_mode": "cash",
+      "description": "Transaction 39",
+      "created_at": "2026-03-16T00:01:49.688439"
+    },
+    {
+      "id": "txn_40",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 5000,
+      "party_name": "Customer 0",
+      "payment_mode": "upi",
+      "description": "Transaction 40",
+      "created_at": "2026-03-17T00:01:49.688439"
+    },
+    {
+      "id": "txn_41",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 5100,
+      "party_name": "Customer 1",
+      "payment_mode": "cash",
+      "description": "Transaction 41",
+      "created_at": "2026-03-18T00:01:49.688439"
+    },
+    {
+      "id": "txn_42",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 5200,
+      "party_name": "Customer 2",
+      "payment_mode": "upi",
+      "description": "Transaction 42",
+      "created_at": "2026-03-19T00:01:49.688439"
+    },
+    {
+      "id": "txn_43",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 5300,
+      "party_name": "Customer 3",
+      "payment_mode": "cash",
+      "description": "Transaction 43",
+      "created_at": "2026-03-20T00:01:49.688439"
+    },
+    {
+      "id": "txn_44",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 5400,
+      "party_name": "Customer 4",
+      "payment_mode": "upi",
+      "description": "Transaction 44",
+      "created_at": "2026-03-21T00:01:49.688439"
+    },
+    {
+      "id": "txn_45",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 5500,
+      "party_name": "Customer 5",
+      "payment_mode": "cash",
+      "description": "Transaction 45",
+      "created_at": "2026-03-22T00:01:49.688439"
+    },
+    {
+      "id": "txn_46",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 5600,
+      "party_name": "Customer 6",
+      "payment_mode": "upi",
+      "description": "Transaction 46",
+      "created_at": "2026-03-23T00:01:49.688439"
+    },
+    {
+      "id": "txn_47",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 5700,
+      "party_name": "Customer 7",
+      "payment_mode": "cash",
+      "description": "Transaction 47",
+      "created_at": "2026-03-24T00:01:49.688439"
+    },
+    {
+      "id": "txn_48",
+      "merchant_id": "demo_merchant",
+      "type": "expense",
+      "amount": 5800,
+      "party_name": "Customer 8",
+      "payment_mode": "upi",
+      "description": "Transaction 48",
+      "created_at": "2026-03-25T00:01:49.688439"
+    },
+    {
+      "id": "txn_49",
+      "merchant_id": "demo_merchant",
+      "type": "income",
+      "amount": 5900,
+      "party_name": "Customer 9",
+      "payment_mode": "cash",
+      "description": "Transaction 49",
+      "created_at": "2026-03-26T00:01:49.688439"
+    }
+  ],
+  "udhari": [
+    {
+      "id": "udhari_0",
+      "merchant_id": "demo_merchant",
+      "debtor_name": "Debtor 0",
+      "debtor_phone": "+919000000000",
+      "amount": 5000,
+      "due_date": "2026-04-06T00:01:49.702568",
+      "risk_score": 30,
+      "status": "pending",
+      "reminders_sent": 0,
+      "created_at": "2026-04-06T00:01:49.702574"
+    },
+    {
+      "id": "udhari_1",
+      "merchant_id": "demo_merchant",
+      "debtor_name": "Debtor 1",
+      "debtor_phone": "+919000000001",
+      "amount": 6000,
+      "due_date": "2026-04-13T00:01:49.702885",
+      "risk_score": 45,
+      "status": "pending",
+      "reminders_sent": 0,
+      "created_at": "2026-04-06T00:01:49.702888"
+    },
+    {
+      "id": "udhari_2",
+      "merchant_id": "demo_merchant",
+      "debtor_name": "Debtor 2",
+      "debtor_phone": "+919000000002",
+      "amount": 7000,
+      "due_date": "2026-04-20T00:01:49.703293",
+      "risk_score": 60,
+      "status": "pending",
+      "reminders_sent": 0,
+      "created_at": "2026-04-06T00:01:49.703295"
+    },
+    {
+      "id": "udhari_3",
+      "merchant_id": "demo_merchant",
+      "debtor_name": "Debtor 3",
+      "debtor_phone": "+919000000003",
+      "amount": 8000,
+      "due_date": "2026-04-27T00:01:49.703738",
+      "risk_score": 75,
+      "status": "pending",
+      "reminders_sent": 0,
+      "created_at": "2026-04-06T00:01:49.703741"
+    },
+    {
+      "id": "udhari_4",
+      "merchant_id": "demo_merchant",
+      "debtor_name": "Debtor 4",
+      "debtor_phone": "+919000000004",
+      "amount": 9000,
+      "due_date": "2026-05-04T00:01:49.704043",
+      "risk_score": 90,
+      "status": "pending",
+      "reminders_sent": 0,
+      "created_at": "2026-04-06T00:01:49.704045"
+    }
+  ],
+  "payscore_history": [],
+  "forecasts": [],
+  "gst_classifications": [],
+  "customers": [
+    {
+      "id": "customer_0",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 0",
+      "phone": "+919000000100",
+      "total_transactions": 5,
+      "total_value": 10000,
+      "last_transaction": "2026-04-06T00:01:49.704469",
+      "segment": "champion",
+      "created_at": "2026-04-06T00:01:49.704472"
+    },
+    {
+      "id": "customer_1",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 1",
+      "phone": "+919000000101",
+      "total_transactions": 6,
+      "total_value": 12000,
+      "last_transaction": "2026-04-05T00:01:49.704884",
+      "segment": "champion",
+      "created_at": "2026-04-06T00:01:49.704887"
+    },
+    {
+      "id": "customer_2",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 2",
+      "phone": "+919000000102",
+      "total_transactions": 7,
+      "total_value": 14000,
+      "last_transaction": "2026-04-04T00:01:49.705340",
+      "segment": "champion",
+      "created_at": "2026-04-06T00:01:49.705344"
+    },
+    {
+      "id": "customer_3",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 3",
+      "phone": "+919000000103",
+      "total_transactions": 8,
+      "total_value": 16000,
+      "last_transaction": "2026-04-03T00:01:49.705708",
+      "segment": "loyal",
+      "created_at": "2026-04-06T00:01:49.705711"
+    },
+    {
+      "id": "customer_4",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 4",
+      "phone": "+919000000104",
+      "total_transactions": 9,
+      "total_value": 18000,
+      "last_transaction": "2026-04-02T00:01:49.706065",
+      "segment": "loyal",
+      "created_at": "2026-04-06T00:01:49.706067"
+    },
+    {
+      "id": "customer_5",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 5",
+      "phone": "+919000000105",
+      "total_transactions": 10,
+      "total_value": 20000,
+      "last_transaction": "2026-04-01T00:01:49.706419",
+      "segment": "loyal",
+      "created_at": "2026-04-06T00:01:49.706421"
+    },
+    {
+      "id": "customer_6",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 6",
+      "phone": "+919000000106",
+      "total_transactions": 11,
+      "total_value": 22000,
+      "last_transaction": "2026-03-31T00:01:49.706795",
+      "segment": "promising",
+      "created_at": "2026-04-06T00:01:49.706798"
+    },
+    {
+      "id": "customer_7",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 7",
+      "phone": "+919000000107",
+      "total_transactions": 12,
+      "total_value": 24000,
+      "last_transaction": "2026-03-30T00:01:49.707183",
+      "segment": "promising",
+      "created_at": "2026-04-06T00:01:49.707185"
+    },
+    {
+      "id": "customer_8",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 8",
+      "phone": "+919000000108",
+      "total_transactions": 13,
+      "total_value": 26000,
+      "last_transaction": "2026-03-29T00:01:49.707593",
+      "segment": "promising",
+      "created_at": "2026-04-06T00:01:49.707595"
+    },
+    {
+      "id": "customer_9",
+      "merchant_id": "demo_merchant",
+      "name": "Customer 9",
+      "phone": "+919000000109",
+      "total_transactions": 14,
+      "total_value": 28000,
+      "last_transaction": "2026-03-28T00:01:49.708175",
+      "segment": "promising",
+      "created_at": "2026-04-06T00:01:49.708178"
+    }
+  ],
+  "schemes": [],
+  "recurring_payments": [],
+  "whatsapp_messages": [
+    {
+      "id": "SM123",
+      "phone": " 919425129512",
+      "message": "hello",
+      "direction": "inbound",
+      "media_url": null,
+      "media_type": null,
+      "created_at": "2026-04-06T00:04:04.233607"
+    },
+    {
+      "id": "SM123",
+      "phone": " 919425129512",
+      "message": "hello",
+      "direction": "inbound",
+      "media_url": null,
+      "media_type": null,
+      "created_at": "2026-04-06T00:06:22.396899"
+    }
+  ],
+  "agent_logs": [],
+  "collection_history": []
+}
